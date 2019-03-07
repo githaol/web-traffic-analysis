@@ -1,0 +1,12 @@
+<configuration>
+    <property>
+        <name>hive.metastore.warehouse.dir</name>
+        <value>hdfs://master1:9999/user/hive/warehouse</value>
+    </property>
+    <property>
+        <name>hive.metastore.uris</name>
+        <value>thrift://master1:9083</value>
+        <description>Thrift uri for the remote metastore. Used by metastore client to connect to remote metastore.</description>
+    </property>
+
+</configuration>
