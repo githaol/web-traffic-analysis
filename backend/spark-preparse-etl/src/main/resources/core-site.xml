@@ -1,0 +1,26 @@
+
+<configuration>
+    <property>
+            		<name>fs.defaultFS</name>
+            		<value>hdfs://master1:9999</value>
+        <description>表示HDFS的基本路径</description>
+    </property>
+    <property>
+        <name>fs.trash.interval</name>
+        <value>30</value>
+        <description>删除文件后还能再n分钟的时候找回来</description>
+    </property>
+
+    <property>
+                        <name>hadoop.proxyuser.hadoop-twq.hosts</name>
+                        <value>*</value>
+        <description>与权限相关,其中beeline会用到</description>
+                </property>
+            <property>
+                    <name>hadoop.proxyuser.hadoop-twq.groups</name>
+                    <value>*</value>
+    <description>与权限相关,其中beeline会用到</description>
+            </property>
+
+
+</configuration>
